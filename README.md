@@ -16,4 +16,16 @@ i'm reviewing gatsby tutorial before launching teacher site
 * home page = ```src/pages/index.js```
 * any new pages should also go in ```src/pages/```
 * sub-components should go in a ```src/components/``` folder
+* use `<Link>` to link Gatsby page components, use `<a>` for external links
+* to import Link use `import { Link } from 'gatsby`
+
+## styles in Gatsby
+
+### global stylesheet
+
+* create a folder for stylesheets ```src/styles/``` and create a file ```global.css```
+* create a file in the root called ```gatsby-browser.js```
+* import the global stylesheet ```import './src/styles.global.css'; ```
+
+### css modules
 
