@@ -19,7 +19,7 @@ i'm reviewing gatsby tutorial before launching teacher site
 * use `<Link>` to link Gatsby page components, use `<a>` for external links
 * to import Link use `import { Link } from 'gatsby`
 
-## styles in Gatsby
+## styles in gatsby
 
 ### global stylesheet
 
