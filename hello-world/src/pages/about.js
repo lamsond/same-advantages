@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/header.js";
+
 
 export default () => (
     <div style={{ color: 'teal' }}>
-        <h1>About Gatsby</h1>
+        <Header headerText='About Gatsby' />
+        <Header headerText='It is perrrrity cool!' />
         <p>Such wow. Very React.</p>
     </div>
 );
