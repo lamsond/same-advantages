@@ -13,3 +13,7 @@ i'm reviewing gatsby tutorial before launching teacher site
 
 ## gatsby building blocks
 
+* home page = ```src/pages/index.js```
+* any new pages should also go in ```src/pages/```
+* sub-components should go in a ```src/components/``` folder
+
